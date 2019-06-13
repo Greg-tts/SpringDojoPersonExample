@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Spring DOJO</title>
+	</head>
+	<div th:replace="fragments/navbar :: navBarFrag"></div>
+	<body>
+		<h1>Welcome to my DOJO!!</h1>
+		<p th:text="${sansa.name}" />
+		<p th:text="${sansa.age}" />
+		<p th:text="${sansa.location}" />
+		<br>
+		<p th:text="${jon.name}" />
+		<p th:text="${jon.age}" />
+		<p th:text="${jon.location}" />
+	</body>
+	<div th:replace="fragments/footer :: footerFrag"></div>
+	
+</html>
